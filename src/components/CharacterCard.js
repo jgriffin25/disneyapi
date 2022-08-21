@@ -27,7 +27,7 @@ export function CharacterCard({ name, imageUrl, _id }) {
   // Attribute values
   img.src = imageUrl;
   img.className = 'w-full h-full object-contain';
-  characterLink.href = `http://localhost:5500/char.html#${_id}`;
+  characterLink.href = `https://jgriffin25.github.io/disneyapi/char.html#${_id}`;
 
   cardActions.appendChild(characterLink);
 
